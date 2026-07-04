@@ -1,5 +1,5 @@
 import React from 'react';
-import { LuaInstance } from './parser';
+import type { LuaInstance } from './parser';
 import { udim2ToSize, udim2ToPosition, parseColor3, parseString } from './utils';
 
 interface RendererProps {

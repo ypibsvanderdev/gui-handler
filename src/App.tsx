@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useMemo } from 'react';
+import { useState, useMemo } from 'react';
 import { Code2, MonitorPlay, Sparkles } from 'lucide-react';
 import { parseLuaUI } from './parser';
 import { LuaComponentRenderer } from './Renderer';
